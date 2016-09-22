@@ -1,0 +1,212 @@
+/* Bgolab theme page for all pages*/
+
+*{
+margin:0;
+padding:0;
+}
+
+/*#cedce7+0,596a72+100;Grey+3D+%231 */
+#page_banner
+{
+background: rgb(206,220,231); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+min-height: 50px;
+padding: 5px 15px;
+border-bottom: 0.2em ridge black;
+}
+#page_banner h1
+{
+color: ivory;
+text-shadow: 2px 2px 4px #000000;
+font-size: 45px;
+font-family: Verdana, Geneva, sans-serif;
+}
+#search_form
+{
+ display: inline;
+ float: right;
+}
+#search_form input[type="text"]
+{
+border: 0.1em solid grey;
+height: 1.5em;
+padding: 0.1em;
+}
+#footer{
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+color: grey;
+font-weight: bolder;
+font-size: 10px;
+min-height: 50px;
+margin-top: 50px;
+border-top: 0.1em solid grey;
+padding: 10px 10px;
+}
+
+#main
+{
+ margin: auto 0;
+ margin-top: 5px;
+ padding: 0.5em;
+ font-size: 14px;
+ font-family: "Times New Roman", Times, serif;
+}
+
+#nav_menu
+{
+ display: inline-block;
+ width: 15%;
+ vertical-align:top;
+ padding-left: 0.5em;
+ padding-top: 0.5em;
+ box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+ margin: auto 0;
+ color: #596a72;
+}
+
+#nav_menu ul li
+{
+ list-style: none;
+ display: block;
+ width: 90%; 
+}
+
+#nav_menu ul li a
+{
+  text-decoration: none;
+  display: block;
+  min-height: 1em;
+  min-height: 1.5em;
+  margin-top: 0.1em;
+  
+}
+#nav_menu ul li:hover > a
+{
+background:#cedce7;
+}
+
+#nav_menu ul li ul
+{
+ display: none;
+ padding-left: 2em;
+}
+
+#nav_menu ul li:hover > ul
+{
+ display: block;
+}
+#nav_menu ul li ul li > a
+{
+  text-decoration: none;
+  display: block;
+  min-height: 1em;
+  font-size: 10px;
+  width: 100%;
+}
+
+#nav_menu ul li ul li:hover > a
+{
+  background:#cedce7;
+}
+
+#content_pane
+{
+ display: inline-block;
+ width: 70%;
+ vertical-align:top;
+ padding: 0.5em;
+ margin-left: 1em;
+ border: 0.1em solid rgba(0, 0, 0, 0.2);
+ box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+ min-height: 400px;
+}
+
+
+#comments
+{
+ display: block;
+ margin: 1px 1px;
+ padding: 10px 10px;
+ background: #cedce7;
+}
+/*=============================FORMS==============================*/
+form  label
+{
+ display: block;
+ margin: 10px 10px;
+}
+
+form  label > span 
+{
+ width: 100px;
+ display: inline-block;
+}
+form input[type=text],input[type=email],input[type=url],input[type=integer],input[type=password]
+{
+ width: 300px;
+ border: 0.1em  solid grey;
+ padding: 0.2em 0.2em;
+}
+form input[type=text]:focus, input[type=email]:focus, input[type=url]:focus,input[type=integer]:focus,input[type=password]:focus,textarea:focus
+{
+  outline: 0;
+  border-color: #4697e4;
+}
+
+form  textarea
+{
+ border: 0.1em  solid grey;
+ height: 100px;
+ display: block;
+ margin: 10px 10px;
+}
+form input[type=submit],input[type=reset]
+{
+  outline: 0;
+  border: 0.1em solid #4697e4;
+  padding: 0.3px 0.3px;
+  min-width: 100px;
+  height: 30px;
+  font-weight:
+}
+
+
+/* Content page styles */
+
+#comment_box
+{
+ background: pink;
+ display: block;
+ margin: 5px 2px;
+ padding: 1px 1px;
+}
+#comment_name
+{
+ font-weight: bold;
+ display: inline;
+}
+#comment_text
+{
+ display:block;
+ font-size: 12px;
+ margin-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
